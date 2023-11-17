@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarala&family=Ubuntu:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.form-container {
+    width: 30vw;
+    height: 77vh;
+    margin: auto;
+    padding: 20px;
+    border-radius: 15px;
+  }
+  .form-group{
+    text-align: start;
+  }
+  .request-form {
+    display: flex;
+    flex-direction: column;
+  }
+    
+  label {
+    font-weight: bold;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+  }
+  
+  .error-message {
+    color: red;
+  }
+  
+  .success-message {
+    color: green;
+  }
+  
